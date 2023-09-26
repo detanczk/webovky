@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>úkol</title>
+    <style>
+        body {
+
+            background-color: rgb(0, 161, 155);
+        }
+
+        table {
+            border: 1px solid #000000;
+            margin: 0 auto;
+            width: 50%;
+
+        }
+
+        table {
+            background-color: white;
+        }
+
+        th {
+            background-color: #ff1801;
+            padding: 8px;
+            color: black;
+        }
+
+        td {
+            border: 1px solid black;
+            border-collapse: collapse
+        }
+
+        .center-table {
+            display: block;
+            justify-content: center;
+            align-items: center;
+            height: 20vh;
+            padding: 3%;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="https://cs.wikipedia.org/wiki/Robotika" target="_blank">
+        <h1>Robotika</h1>
+    </a>
+    <p>Robotika je věda o robotech, jejich designu, výrobě a aplikacích.</p>
+    <a href="https://cs.wikipedia.org/wiki/Robotika#Pr%C5%AFmyslov%C3%A1_robotika" target="_blank">
+        <h2>Průmyslová robotika</h2>
+    </a>
+    <p>Termínem průmyslové roboty jsou označována ústrojí, která se vyznačují následujícími vlastnostmi:</p>
+    <ul>
+        <li>Manipulační schopnost</li>
+        <li>Automatická činnost</li>
+        <li>Snadná změna programu</li>
+        <li>Univerzálnost</li>
+        <li>Zpětná vazba</li>
+        <li>Prostorová soustředěnost</li>
+    </ul>
+    <a href="https://cs.wikipedia.org/wiki/Robotika#Experiment%C3%A1ln%C3%AD_robotika">
+        <h2>Experimentální robotika</h2>
+    </a>
+    <h3>Historie experimentální robotiky</h3>
+    <p>Za první moderní experiment s robotem lze považovat připojení počítače k jinak ručně ovládanému manipulátoru,
+        které bylo zrealizováno jako doktorská práce H. A. Ernsta v letech 1960 až 1961 na MIT. Vybaven dotykovými a
+        fotooptickými čidly přímo v dlani, byl tento robot schopen vyhledat a zvednout libovolný předmět, předem
+        položený na stůl. <br> V polovině šedesátých let byly zahájeny vědecké experimenty s roboty ve třech k tomuto
+        účelu specializovaných laboratořích v USA (MIT, Stanfordově univerzita, Stanfordův výzkumný ústav), o něco
+        později též ve Velké Británii (Edinburská univerzita) a na několik místech v Japonsku (laboratoře firem Hitachi
+        a Mitsubishi, Elektrotechnická laboratoř v Tokiu, Wasedská univerzita a další).</p>
+    <hr>
+    <img src="validator_ukol.jpg" alt="bez chyby validator">
+    <p>naučil jsem se tagy li, br, hr a img. Zatím mám velmi dobré pocity</p>
+    <h2>Šampioni F1</h2>
+
+    <table id="MyTable">
+        <tr>
+            <th>ročník</th>
+            <th>Jméno</th>
+            <th>Tým</th>
+            <th>Body</th>
+        </tr>
+        <tr>
+            <td>1950</td>
+            <td>Giuseppe Farina</td>
+            <td>Alfa Romeo</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>1951</td>
+            <td>Juan Manuel Fangio</td>
+            <td>Alfa Romeo</td>
+            <td>31</td>
+        </tr>
+        <tr>
+            <td>1952</td>
+            <td>Alberto Ascari</td>
+            <td>Ferrari</td>
+            <td>36</td>
+        </tr>
+        <tr>
+            <td>1953</td>
+            <td>Alberto Ascari</td>
+            <td>Ferrari</td>
+            <td>34,5</td>
+        </tr>
+        <tr>
+            <td>1954</td>
+            <td>Juan Manuel Fangio</td>
+            <td>Maserati / Mercedes</td>
+            <td>42</td>
+        </tr>
+    </table>
+    <i style="color: rgb(50, 50, 50);">*seznam není dokončený</i>
+</body>
+
+</html>
